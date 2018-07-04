@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import SearchBar from 'material-ui-search-bar';
 import styled from 'styled-components';
 
+import data from '../data/city-state';
+
 class Search extends Component {
+
     render() {
         return (
             <Div>
